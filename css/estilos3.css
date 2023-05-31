@@ -1,0 +1,45 @@
+.pie-pagina{
+    border: 0.5px solid black;
+    text-align: center;
+    padding: 10px 30px;
+    margin: 20px;
+}
+/* 
+#parrafo1{
+    font-size: 20px;
+    color: blue;
+    border: 0.5px solid black;
+}
+*/
+#comentario1{
+    font-size: 25px;
+    text-align: right;
+}
+p,h1,li{
+    color: #2471A3; 
+}
+hgroup h2{
+    color: #3498DB;
+}
+article>p{
+    font-size: 10px;
+}
+img+p{
+    border: 3px dashed black;
+}
+li:nth-child(1){
+    font-size: 40px;
+}
+a:link{
+    color: blueviolet;
+}
+a:hover{
+    color: cyan;
+}
+a:visited{
+    color: #AED6F1;
+}
+p::first-letter{
+    color: #FFC300;
+    font-size: 50px;
+}
